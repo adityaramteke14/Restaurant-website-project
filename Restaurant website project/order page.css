@@ -1,0 +1,132 @@
+
+/* Reset default margin and padding 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+*/
+/* Set default font and background color */
+body {
+  font-family: cursive;
+  background-color: #fffdd0;
+}
+
+h1{
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* Style the menu */
+
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem;
+  
+}
+
+.menu-item {
+  background-color: #fff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1rem;
+  max-width: 300px;
+  padding: 2rem;
+  text-align: center;
+  
+}
+  
+  /*
+  .menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1rem;
+  }
+  
+  .menu-item {
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1rem 0;
+    max-width: calc(33.33% - 2rem);
+    padding: 10px;
+    text-align: center;
+    padding-right: ;
+    
+    
+  }
+  */
+
+.menu-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.menu-item .description {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.menu-item .quantity {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.menu-item .quantity button {
+  background-color: skyblue;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.menu-item .quantity-value {
+  font-size: 1.2rem;
+  margin: 0 0.5rem;
+}
+
+/* Style the order summary */
+.order {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.order-total {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.order button {
+  background-color: #333;
+  border: none;
+  border-radius: 0.25rem;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 1.5rem 2rem;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.order button:hover {
+  background-color: #555;
+}
+
+/* Style the order success message */
